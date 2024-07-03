@@ -1,0 +1,23 @@
+{
+    "serial_port": "serial port",
+    "pis": [
+        {
+            "ip": "YOUR_IP_ADDRESS",
+            "username": "YOUR_USERNAME",
+            "password": "YOUR_PASSWORD",
+            "name": "PI NAME"
+        },
+        {
+            "ip": "YOUR_IP_ADDRESS",
+            "username": "YOUR_USERNAME",
+            "password": "YOUR_PASSWORD",
+            "name": "PI NAME"
+        },
+        {
+            "ip": "YOUR_IP_ADDRESS",
+            "username": "YOUR_USERNAME",
+            "password": "YOUR_PASSWORD",
+            "name": "PI NAME"
+        }
+    ]
+}
