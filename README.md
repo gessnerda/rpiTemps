@@ -16,3 +16,19 @@ This project is designed to monitor the CPU temperatures of multiple Raspberry P
 - pySerial library
 - An Arduino with an LCD display and DHT sensor (e.g., DHT11)
 - Multiple Raspberry Pis
+
+## Installation
+
+1. **Clone the Repository**
+
+   git clone https://github.com/gessnerda/rpiTemps.git
+   cd rpiTemps
+
+2. **Install libraries**
+    pip install paramiko pyserial
+
+3. **Create and fill in config.json**
+    cp config_template.json config.json
+
+4. **Run**
+    python .\rpiTemps

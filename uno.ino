@@ -1,8 +1,9 @@
 #include <LiquidCrystal.h>
 #include <DHT.h>
-LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
 #define DHTPIN 2
 #define DHTTYPE DHT11
+
+LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
 
 DHT dht(DHTPIN, DHTTYPE);
 
